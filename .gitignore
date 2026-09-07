@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.pytest_cache/
+
+# Databases & Cache
+*.db
+*.sqlite3
+.sqlite_history
+
+# Node & Frontend
+node_modules/
+dist/
+.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment & Credentials
+.env
+.env.local
+.DS_Store
+
+# Airflow
+airflow.db
+airflow.cfg
+logs/
+exports/
